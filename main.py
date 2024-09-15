@@ -25,8 +25,8 @@ class Node:
 class Map:
     """Map class."""
 
-    def __init__(self, input_map: list[list["str"]]) -> None:
-        self.input_map: list[list["str"]] = input_map
+    def __init__(self, input_map: list[list[str]]) -> None:
+        self.input_map: list[list[str]] = input_map
         self.buildings: int = 0
         self.invalid_map: bool = False
         self.row_length: int = len(input_map)
